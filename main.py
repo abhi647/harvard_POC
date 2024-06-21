@@ -5,7 +5,7 @@ import fitz  # PyMuPDF
 from pathlib import Path
 
 # Set your OpenAI API key
-openai.api_key = st.secrets['api_key']
+openai.api_key = st.secrets["OpenAI_key"]
 
 # Function to read PDF
 def read_pdf(file_path):
