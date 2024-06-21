@@ -3,3 +3,4 @@ openai==0.28.1
 pymupdf==1.18.19
 streamlit-webrtc==0.35.0
 pydub==0.25.1
+fitz

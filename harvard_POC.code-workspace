@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "harvard_POC",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../images"
+		}
+	],
+	"settings": {}
+}

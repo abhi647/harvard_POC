@@ -5,7 +5,7 @@ import fitz  # PyMuPDF
 from pathlib import Path
 
 # Set your OpenAI API key
-openai.api_key = 'sk-proj-3yHoOiS5Z6H6CS1i7uSFT3BlbkFJATTWo9JHC8Ew8neadFgA'
+openai.api_key = st.secrets['api_key']
 
 # Function to read PDF
 def read_pdf(file_path):
@@ -65,7 +65,8 @@ for file in uploaded_files_path.glob("*.pdf"):
     })
 
 # Sidebar - Advanced Filters
-st.sidebar.title("Harvard University")
+st.sidebar.image("images/logo.jpeg", use_column_width=True)  # Logo at the top of the sidebar
+st.sidebar.title("Harvard University Content Store")
 
 # Collapsible Advanced Filters
 with st.sidebar.expander("Advanced Filters"):
